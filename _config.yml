@@ -35,6 +35,10 @@ prose:
           label: Published
           value: true
     _posts/static:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "page"
       - name: "layout"
         field:
           element: "hidden"
@@ -43,6 +47,30 @@ prose:
         field:
           element: "text"
           label: "Title"
+          value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
+    _posts/products:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "product"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "abv"
+        field:
+          element: "text"
+          label: "ABV"
           value: ""
       - name: "permalink"
         field:
