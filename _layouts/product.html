@@ -3,8 +3,12 @@ layout: default
 ---
 
 <div class="product">
+    <h1>{{ page.title }}</h1>
     {% if page.abv %}
     <p>ABV: {{page.abv}}</p>
     {% endif %}
-    {{ page.title }}
+
+    <div class="content">
+        {{ content }}
+    </div>
 </div>
