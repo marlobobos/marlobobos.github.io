@@ -1,0 +1,7 @@
+<ul class="menu">
+    {% for page in site.categories.page limit:1000 %}
+        <li>
+            <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
