@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: product
 category: product
-published: false
+published: true
 title: New product
 abv: '12'
 permalink: product-2
