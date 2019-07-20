@@ -1,0 +1,51 @@
+# Site settings
+title: Marlobobos Megabear
+email: info@marlobobo.com
+description: > # Marlobobos Megabear is a brewery
+baseurl: ""
+url: "https://marlobobo.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+# Prose
+prose:
+  media: 'media'
+  metadata:
+    _posts:
+      - name: "date"
+        field:
+          element: "hidden"
+          value: "CURRENT_DATETIME"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: published
+        field:
+          element: checkbox
+          label: Published
+          value: true
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
