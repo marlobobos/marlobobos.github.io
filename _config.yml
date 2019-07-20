@@ -53,6 +53,11 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
+      - name: published
+        field:
+          element: checkbox
+          label: Published
+          value: true
     _posts/products:
       - name: "category"
         field:
@@ -61,12 +66,17 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "page"
+          value: "product"
       - name: "title"
         field:
           element: "text"
           label: "Title"
           value: ""
+      - name: published
+        field:
+          element: checkbox
+          label: Published
+          value: true
       - name: "abv"
         field:
           element: "text"
